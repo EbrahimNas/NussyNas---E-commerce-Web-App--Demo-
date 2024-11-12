@@ -114,8 +114,6 @@ A live demo of the project is available [here](https://nussynas.netlify.app/).
 ## Contributing
 Feel free to fork this repository and submit pull requests with new features or improvements.
 
-## Contributing
-Feel free to fork this repository and submit pull requests with new features or improvements.
 
 ## License
 This repository is a demonstration project intended to showcase my work and is based on a private eCommerce web app I developed for a client. Sensitive data and proprietary details have been removed, and this project is not licensed for commercial use.
