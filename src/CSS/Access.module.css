@@ -1,0 +1,137 @@
+.access {
+    margin-top: 100px;
+}
+
+
+.accessContainer {
+    margin: 0 auto;
+    padding: 0px 30px;
+    max-width: 1536px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accessContainer img {
+    width: 150px;
+    height: 150px;
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accessForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+
+.accessForm form {
+    padding:20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.accessForm input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(151, 31, 31, 0.2);
+    margin: 10px 0;
+
+}
+
+.accessForm input:hover {
+    box-shadow: 0 0 10px rgba(235, 42, 106, 0.4);
+}
+
+.accessForm button {
+    background-color: rgb(112, 112, 112);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .9s ease;
+    margin-top: 10px;
+}
+
+.accessForm button:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 42, 106);
+}
+
+.ask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.ask button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .9s ease;
+    margin-top: 5px;
+}
+
+.ask button:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 42, 106);
+}
+
+.googleButton {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.googleButton button {
+    background-color: rgb(235, 234, 234);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .9s ease;
+    margin-top: 5px;
+
+}
+
+.googleButton button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 142, 143);
+}
+
+.googleButton img {
+    height: 50px;
+    width: 50px;
+    transition: .9s ease;
+}
+
+.googleButton img:hover {
+    transform: scale(1.1);
+}
+
+
+
+

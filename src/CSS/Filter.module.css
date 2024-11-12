@@ -1,0 +1,18 @@
+.filterContainer {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.filterContainer select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.filterContainer select:hover {
+    box-shadow: 0 0 10px rgba(235, 42, 106, 0.4);
+}

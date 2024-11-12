@@ -1,0 +1,49 @@
+.likedItems {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.likedItemsContainer {
+    margin: 0 auto;
+    padding: 0px 30px;
+    max-width: 1536px;
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTitle h2 {
+    margin-top: 20px;
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 35px;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(289px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    justify-items: space-between;
+}
+
+@media screen and (max-width: 460px) {
+    .mainLikedItems {
+        overflow-x: hidden;
+    }
+
+    .likedItemsContainer {
+        padding: 0px 0px;
+    }
+
+    .productGrid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

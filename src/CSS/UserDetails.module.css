@@ -1,0 +1,95 @@
+.UserDetails {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.UserDetailsContainer {
+    margin: 0 auto;
+    padding: 0px 30px;
+    max-width: 1536px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTitle h2 {
+    margin-top: 20px;
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.forms {
+    margin: 20px 0;
+    padding:20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+}
+
+.forms input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(151, 31, 31, 0.2);
+    margin: 10px 0;
+
+}
+
+.forms input:hover {
+    box-shadow: 0 0 10px rgba(235, 42, 106, 0.4);
+}
+
+.forms select {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(151, 31, 31, 0.2);
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.forms select:hover {
+    box-shadow: 0 0 10px rgba(235, 42, 106, 0.4);
+}
+
+.forms button {
+    background-color: rgb(112, 112, 112);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .9s ease;
+    margin-top: 10px;
+}
+
+.forms button:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 42, 106);
+}
+
+@media screen and (max-width: 460px) {
+    .mainUserDetails {
+        overflow-x: hidden;
+    }
+}

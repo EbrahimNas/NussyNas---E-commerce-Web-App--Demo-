@@ -1,0 +1,165 @@
+.banner {
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.bannerContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1536px;
+    align-items: center; 
+    margin: 0 auto;
+    padding: 0px 30px;
+    padding-top: 50px;
+}
+
+.catchPhrase {
+    width: 20%;
+    text-align: center;
+}
+
+.bannerImage {
+    display: flex;
+    align-items: center;
+}
+
+.nextPrev {
+    filter: sepia(100%) saturate(300%) hue-rotate(250deg);
+    background-color: rgb(255, 255, 255);
+    transition: .9s ease;
+}
+
+.nextPrev:hover {
+    transform: scale(1.1);
+    background-color: rgb(235, 42, 106);
+}
+
+.buyIt {
+    width: 20%;
+    text-align: center;
+}
+
+.buyIt button {
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+}
+
+.buyIt button:hover {
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 42, 106);
+}
+
+.catchPhrase h2 {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 40px;
+    background-color: palevioletred;
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.buyIt h2 {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 40px;
+    background-color: palevioletred;
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+
+
+.bannerImage img {
+    width: 430px;
+    height: 712px;
+}
+
+.bannerImage .nextPrev {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.bannerFoot {
+    width: 100%;
+    background-color: rgb(223, 188, 200);
+}
+
+.bannerFootContent {
+    max-width: 1536px;
+    align-items: center; 
+    justify-items: center;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.bannerFootContent h3, p {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 2px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 460px) {
+    .bannerContent {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    .catchPhrase {
+        width: 70%;
+        text-align: center;
+    }
+
+    .bannerImage {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .bannerImage img {
+        width: 215px;
+        height: 356px;
+    }
+
+    .buyIt {
+        width: 40%;
+        text-align: center;
+    }
+
+    .catchPhrase h2 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .buyIt h2 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .bannerFootContent {
+        text-align: center;
+    }
+}

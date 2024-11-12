@@ -1,0 +1,140 @@
+.productDetails {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.productDetailsContainer {
+    margin: 0 auto;
+    padding: 50px 30px 100px;
+    max-width: 1536px;
+    display: flex;
+}
+
+.productImgcontainer {
+    display: flex;
+    flex-grow: 0.3;
+}
+
+.productImg {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.productInfo {
+    padding: 0 20px;
+}
+
+.productInfo h1, h3 {
+    font-family: "Tinos", serif;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-weight: 700;
+    
+}
+
+.productInfo h3 {
+    color: #5a5959;
+}
+
+.sizeSelector {
+    margin: 30px 0;
+}
+
+.sizeSelector select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.productButtons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.productButtons button {
+    padding: 15px;
+    color: white;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 25px;
+    transition: background-color, transform 0.5s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productButtons button:hover {
+    background-color: rgb(235, 42, 106);
+    transform: scale(1.1);
+}
+
+.likeButton {
+    align-self: end;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 9px 9px 5px 9px;
+}
+
+.sizeGuideContainer {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1536px;
+}
+
+.sizeGuideContainer button {
+    padding: 15px;
+    color: white;
+    background-color: rgb(235, 42, 106);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 25px;
+    transition: background-color, transform 0.5s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sizeGuideContainer button:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+}
+
+.sizeGuideImage {
+    margin-top: 20px;
+}
+
+.sizeGuideImage img {
+    width: 590.67px;
+    height: 190px;
+}
+
+@media screen and (max-width: 460px) {
+    .mainProductDetails {
+        overflow-x: hidden;
+    }
+
+    .productImg {
+        width: 200px;
+        height: 233.33px;
+    }
+
+    .productInfo {
+        padding: 0 0 0 20px;
+    }
+
+    .productInfo h1{
+        margin: 0;
+    }
+
+    .sizeGuideImage img {
+        width: 295px;
+        height: 95px;
+    }
+}

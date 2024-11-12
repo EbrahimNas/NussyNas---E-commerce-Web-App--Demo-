@@ -1,0 +1,17 @@
+.productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(289px, 1fr)); /* Responsive columns */
+    gap: 25px;
+    padding: 30px;
+    justify-items: space-between;
+}
+
+@media screen and (max-width: 460px) {
+    .productList {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive columns */
+        gap: 25px;
+        padding: 0px;
+        justify-items: space-between;
+    }
+}

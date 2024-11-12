@@ -1,0 +1,40 @@
+.navigation {
+    margin-bottom: 0px;
+}
+
+.navigationContainer {
+    background-color: #ffffff;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.navigationContainer a {
+    color: black;
+}
+
+.navigationContainer a:hover {
+    color: rgb(214, 50, 107);
+}
+
+@media screen and (max-width: 460px) {
+    .navigationContainer {
+        gap: 10px;
+        padding: 5px 15px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+    }
+
+    .navigationContainer a {
+        color: black;
+        font-size: smaller;
+    }
+}

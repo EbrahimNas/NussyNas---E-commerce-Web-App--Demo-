@@ -1,0 +1,38 @@
+.orderConfirmation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.orderConfirmationContainer {
+    margin: 0 auto;
+    padding: 0px 30px;
+    max-width: 600px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageTitle a img {
+    width: 150px;
+    height: 150px;
+}
+
+.pageTitle h2 {
+    font-weight: 400;
+}
+
+.orderConfirmationDetails {
+    text-align: center;
+}
