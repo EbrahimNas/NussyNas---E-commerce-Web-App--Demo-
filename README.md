@@ -82,7 +82,7 @@ NussyNas is a full-featured e-commerce platform built with React, Firebase, and 
 - Order Process: Add items to the cart, proceed to checkout, and complete a purchase with Paystack.
 
 ### Demo
-A live demo of the project is available [here](https://nussynas.netlify.app/).
+A live demo of the project is available [here](https://nussynas.com/).
 
 ## Screenshots
 
